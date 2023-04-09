@@ -1,0 +1,209 @@
+body{
+    background-color: slategrey;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+}
+
+.upperbox{
+    height: 150px;
+    width: 500px;
+    border: 5px solid tomato;
+    border-radius: 15px;
+    box-shadow: 10px 10px purple;
+    background-color: white;
+    font-size: 200%;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(129, 17, 17);
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px  purple;
+}
+
+.middleborder{
+    border: 8px solid green; 
+    padding-bottom: 20px; 
+    padding-top: 10px;
+}
+
+.midcontainer1{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.midcontainer2{
+    display: flex; 
+    justify-content: 
+    space-between; 
+    margin-top: 40px;
+}
+
+
+.middlebox{
+    height: 200px;
+    width: 210px;
+    border: 7px solid tomato;
+    box-shadow: 10px 10px purple;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.box1{
+    text-align: center;
+    font-size: 130%;
+    line-height: 40px;
+    padding-top: 20px;
+    text-shadow: 1px 2px  purple;
+    font-weight: bold;
+    color: black;
+}
+
+.box2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+img{
+    box-shadow: -2px 2px black;
+}
+
+.box3{
+    text-align: justify;
+    font-size: 130%;
+    padding-top: 20px;
+    text-shadow: 1px 1px  purple;
+    font-weight: 900;
+}
+
+.box4{
+    text-align: center;
+    font-size: 130%;
+    padding-top: 20px;
+    text-shadow: 1px 1px  purple;
+    font-weight: 900
+}
+
+input{
+    width: 70px;
+}
+
+label{
+    text-align: center;
+    font-size: 50%;
+    padding-top: 20px;
+    text-shadow: 1px 1px  purple;
+    font-weight: 900
+}
+
+button{
+    height: 20px;
+    width: 75px;
+    font-size: x-small;
+    border-radius: 40px;
+    background-color: rgb(226, 12, 12);
+}
+
+
+.lower{
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.lowerbox{
+    width: 700px;
+    height: 650px;
+    border: 10px solid purple;
+    background-color: green;
+}
+
+.lowerboxheading{
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.lowercontainer{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.leftlowerbox{
+    height: 250px;
+    width: 345px;
+    border: 1px solid rgb(248, 221, 112);
+    background-color:rgb(248, 221, 112);
+    text-align: center;
+    line-height: 300%;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+}
+
+.rightlowerbox{
+    height: 250px;
+    width: 345px;
+    border: 1px solid rgb(248, 221, 112);
+    background-color:rgb(248, 221, 112);
+    text-align: center;
+    line-height: 300%;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.bottombox{
+    height: 300px;
+    width: 700px;
+    border: 1px solid rgb(248, 221, 112);
+    background-color:rgb(248, 221, 112);
+    text-align: center;
+    line-height: 300%;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+}
+
+.fixedbox{
+    width: 450px;
+    height: 75px;
+    border: 8px solid red;
+    background-color: greenyellow;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 30px;
+    display: flex;
+    box-shadow: 10px 10px purple;
+}
+
+#f1{
+    font-style: italic;
+    font-size: 150%;
+    color:  rgb(139, 15, 15);
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#f2{
+    font-style: italic;
+    font-size: 120%;
+    color: rgb(139, 15, 15);
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
